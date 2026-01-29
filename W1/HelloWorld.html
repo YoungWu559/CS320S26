@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .diagram {
+            text-align: center;
+            margin: 20px 0;
+        }
+        svg {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0052a3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Binary Search Tree (BST)</h1>
+    
+    <div class="section">
+        <h2>What is a Binary Search Tree?</h2>
+        <p>A Binary Search Tree is a data structure that maintains sorted data through a hierarchical tree structure. Each node has at most two children (left and right), and follows the property: all values in the left subtree are less than the node's value, and all values in the right subtree are greater.</p>
+    </div>
+
+    <div class="section">
+        <h2>Example BST Diagram</h2>
+        <div class="diagram">
+            <svg width="300" height="250" viewBox="0 0 300 250">
+                <!-- Lines -->
+                <line x1="150" y1="30" x2="100" y2="80" stroke="#333" stroke-width="2"/>
+                <line x1="150" y1="30" x2="200" y2="80" stroke="#333" stroke-width="2"/>
+                <line x1="100" y1="80" x2="60" y2="130" stroke="#333" stroke-width="2"/>
+                <line x1="100" y1="80" x2="140" y2="130" stroke="#333" stroke-width="2"/>
+                <line x1="200" y1="80" x2="170" y2="130" stroke="#333" stroke-width="2"/>
+                <line x1="200" y1="80" x2="240" y2="130" stroke="#333" stroke-width="2"/>
+                
+                <!-- Nodes -->
+                <circle cx="150" cy="30" r="15" fill="#0066cc"/>
+                <text x="150" y="35" text-anchor="middle" fill="white" font-weight="bold">50</text>
+                
+                <circle cx="100" cy="80" r="15" fill="#0066cc"/>
+                <text x="100" y="85" text-anchor="middle" fill="white" font-weight="bold">30</text>
+                
+                <circle cx="200" cy="80" r="15" fill="#0066cc"/>
+                <text x="200" y="85" text-anchor="middle" fill="white" font-weight="bold">70</text>
+                
+                <circle cx="60" cy="130" r="15" fill="#0066cc"/>
+                <text x="60" y="135" text-anchor="middle" fill="white" font-weight="bold">20</text>
+                
+                <circle cx="140" cy="130" r="15" fill="#0066cc"/>
+                <text x="140" y="135" text-anchor="middle" fill="white" font-weight="bold">40</text>
+                
+                <circle cx="170" cy="130" r="15" fill="#0066cc"/>
+                <text x="170" y="135" text-anchor="middle" fill="white" font-weight="bold">60</text>
+                
+                <circle cx="240" cy="130" r="15" fill="#0066cc"/>
+                <text x="240" y="135" text-anchor="middle" fill="white" font-weight="bold">80</text>
+            </svg>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Properties</h2>
+        <ul>
+            <li><strong>Balance:</strong> A balanced BST provides optimal search performance</li>
+            <li><strong>Search Time:</strong> O(log n) for balanced trees, O(n) for unbalanced</li>
+            <li><strong>Insertion & Deletion:</strong> Maintain the BST property</li>
+            <li><strong>In-order Traversal:</strong> Produces sorted sequence</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Common Operations</h2>
+        <button onclick="alert('Search: Find a value in O(log n) time by comparing and going left or right')">Search</button>
+        <button onclick="alert('Insert: Add a new node while maintaining BST property')">Insert</button>
+        <button onclick="alert('Delete: Remove a node and reorganize the tree structure')">Delete</button>
+    </div>
+</body>
+</html>
