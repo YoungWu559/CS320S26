@@ -25,3 +25,17 @@ Dynamically enable window occlusion 1
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
 1771972160245	geckodriver	INFO	Listening on 127.0.0.1:52374
 1771972163360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\young\\AppData\\Local\\Temp\\rust_mozprofileHVktZi"
+1772525130287	geckodriver	INFO	Listening on 127.0.0.1:62164
+1772525133390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\young\\AppData\\Local\\Temp\\rust_mozprofileyFlSs5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772525133822	Marionette	INFO	Marionette enabled
+1772525133962	Marionette	INFO	Listening on port 56515
+WebDriver BiDi listening on ws://127.0.0.1:9222
+Read port: 56515
+1772525134123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1772525150804	Marionette	INFO	Stopped listening on port 56515
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
