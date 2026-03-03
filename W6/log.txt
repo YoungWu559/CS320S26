@@ -23,3 +23,5 @@ Read port: 57891
 1771915528178	Marionette	INFO	Stopped listening on port 57891
 Dynamically enable window occlusion 1
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1771972160245	geckodriver	INFO	Listening on 127.0.0.1:52374
+1771972163360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\young\\AppData\\Local\\Temp\\rust_mozprofileHVktZi"
