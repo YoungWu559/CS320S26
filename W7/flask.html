@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask - Python Web Framework</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flask</h1>
+        <p>A Lightweight Python Web Framework</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#example">Example</a>
+        <a href="#docs">Documentation</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Flask</h2>
+            <p>Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It is very flexible and allows developers to build web applications with minimal boilerplate code.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Lightweight and modular design</li>
+                <li>Built-in development server</li>
+                <li>RESTful request dispatching</li>
+                <li>Secure cookies support</li>
+                <li>Integrated unit testing support</li>
+                <li>Jinja2 templating engine</li>
+            </ul>
+        </section>
+
+        <section id="example">
+            <h2>Quick Example</h2>
+            <p>Here's a simple Flask application:</p>
+            <pre><code>from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(debug=True)</code></pre>
+        </section>
+
+        <section id="docs">
+            <h2>Getting Started</h2>
+            <p>To install Flask, use pip:</p>
+            <pre><code>pip install flask</code></pre>
+            <p>For more information, visit the <a href="https://flask.palletsprojects.com/">official Flask documentation</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Flask Web Framework. All rights reserved.</p>
+    </footer>
+</body>
+</html>
