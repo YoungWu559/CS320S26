@@ -39,3 +39,23 @@ Read port: 56515
 Dynamically enable window occlusion 1
 console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
 console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+1772576792761	geckodriver	INFO	Listening on 127.0.0.1:57449
+1772576795849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\young\\AppData\\Local\\Temp\\rust_mozprofilessr9gy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772576796238	Marionette	INFO	Marionette enabled
+1772576796390	Marionette	INFO	Listening on port 57559
+WebDriver BiDi listening on ws://127.0.0.1:9222
+Read port: 57559
+1772576796564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-src:///browser/components/search/SearchOneOffs.sys.mjs, line 392: TypeError: aEngine.getIconURL is not a function
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-VR18KP2XH1, line 210: Script terminated by timeout at:
+Kb@https://www.googletagmanager.com/gtag/js?id=G-VR18KP2XH1:210:159
+GE@https://www.googletagmanager.com/gtag/js?id=G-VR18KP2XH1:737:135
+HE/<@https://www.googletagmanager.com/gtag/js?id=G-VR18KP2XH1:737:111
+
+1772577005686	Marionette	INFO	Stopped listening on port 57559
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
